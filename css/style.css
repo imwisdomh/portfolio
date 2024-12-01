@@ -20,24 +20,24 @@ html {
     margin: auto;
 }
 
-.header__menu {
+.header__list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.header__menu-item {
+.header__list-item {
     font-size: larger;
     font-weight: 600;
 }
 
-.header__menu-item a {
+.header__list-item a {
     color: rgb(85, 106, 212);
     text-decoration: none;
     transition: color 0.5s ease;
 }
 
-.header__menu-item a:hover {
+.header__list-item a:hover {
     color: black;
     text-decoration: underline;
 }
@@ -46,14 +46,39 @@ html {
     height: 100vh;
 }
 
-#home {
+.section--home {
     background-color: rgb(231, 234, 254);
 }
 
-#about {
+.section--about {
     background-color: rgb(238, 241, 255);
 }
 
-#footer {
+.footer {
     background-color: white;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer__contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer__contact-title {
+    color: rgb(85, 106, 212);
+    font-size: larger;
+    font-weight: 600;
+}
+
+.footer__contact-item img {
+    height: 50px;
+}
+
+.footer__copyright {
+    font-size: 14px;
+    color: gray;
 }
