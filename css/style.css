@@ -46,15 +46,28 @@ html {
     margin-top: 10vh;
 }
 
-.section {
+.main__section {
     height: 90vh;
 }
 
-.section--home {
+.main__section--home {
     background-color: rgb(231, 234, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
 }
 
-.section--about {
+.main__section--home img {
+    height: 450px;
+}
+
+.main__section--home h2 {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.main__section--about-me {
     background-color: rgb(238, 241, 255);
 }
 
