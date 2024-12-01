@@ -10,20 +10,35 @@
     <body>
         <header class="header">
             <nav class="header__nav">
-                <ul class="header__menu">
-                    <li class="header__menu-item"><a href="#home">Home</a></li>
-                    <li class="header__menu-item"><a href="#about">About</a></li>
-                    <li class="header__menu-item"><a href="#footer">Contact</a></li>
-                    <li class="header__menu-item">
-                        <a href="https://github.com/imwisdomh/portfolio" target="_blank" rel="noopener noreferrer">Code</a>
+                <ul class="header__list">
+                    <li class="header__list-item"><a href="#home">Home</a></li>
+                    <li class="header__list-item"><a href="#about">About</a></li>
+                    <li class="header__list-item"><a href="#footer">Contact</a></li>
+                    <li class="header__list-item">
+                        <a href="https://github.com/imwisdomh/portfolio" target="_blank" rel="noopener noreferrer"
+                            >Code</a
+                        >
                     </li>
                 </ul>
             </nav>
         </header>
-        <div id="home" class="section">Home</div>
-        <div id="about" class="section">About</div>
-        <footer id="footer">
-            <div>Contact</div>
+        <main>
+            <section id="home" class="section section--home"></section>
+            <section id="about" class="section section--about"></section>
+        </main>
+        <footer id="footer" class="footer">
+            <div class="footer__contact">
+                <h2 class="footer__contact-title">Contact</h2>
+                <ul class="footer__contact-list">
+                    <li class="footer__contact-item">
+                        <img src="img/email.png" alt="email" />
+                    </li>
+                </ul>
+            </div>
+            <p class="footer__copyright">
+                &copy; 2024<a href="https://github.com/imwisdomh" target="_blank" rel="noopener noreferrer">JH</a>. All
+                Rights Reserved.
+            </p>
         </footer>
     </body>
 </html>
