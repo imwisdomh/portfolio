@@ -8,7 +8,7 @@ html {
     left: 0;
     width: 100%;
     background-color: white;
-    height: 80px;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,8 +42,12 @@ html {
     text-decoration: underline;
 }
 
+.main {
+    margin-top: 10vh;
+}
+
 .section {
-    height: 100vh;
+    height: 90vh;
 }
 
 .section--home {
