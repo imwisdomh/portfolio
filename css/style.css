@@ -23,6 +23,7 @@ html {
 .header__list {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -40,6 +41,16 @@ html {
 .header__list-item a:hover {
     color: black;
     text-decoration: underline;
+}
+
+.header__list-item:nth-child(4) {
+    background-color: rgb(85, 106, 212);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.header__list-item:nth-child(4) a {
+    color: white;
 }
 
 .main {
