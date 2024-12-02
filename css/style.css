@@ -48,6 +48,7 @@ html {
 
 .main__section {
     height: 90vh;
+    scroll-margin-top: 10vh;
 }
 
 .main__section--home {
