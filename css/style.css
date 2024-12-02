@@ -81,6 +81,7 @@ body {
 .main__section--home h2 {
     font-size: 80px;
     font-weight: 600;
+    color: rgb(85, 106, 212);
 }
 
 .main__section--about-me {
@@ -118,7 +119,7 @@ body {
     color: gray;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .header__nav {
         width: 80%;
     }
@@ -134,5 +135,25 @@ body {
 
     .main__section—home h2 {
         font-size: 65px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 479px) {
+    .header__nav {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .main__section--home {
+        gap: 40px;
+    }
+
+    .main__section--home img {
+        height: 300px;
+    }
+
+    .main__section--home h2 {
+        font-size: 55px;
     }
 }
